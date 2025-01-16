@@ -1,0 +1,98 @@
+
+::-webkit-file-upload-button {
+  background: #2271b1;
+  color: #fff;
+  padding: 8px 15px;
+  border:  unset;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type=file]::file-selector-button {
+  border: none;
+  background-color: #ccc;
+  transition: 1s;
+}
+button#importUserSubmit {
+    padding: 8px 15px;
+    font-weight: bold;
+    background: #2271b1;
+    border: unset;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.422rem 0.875rem;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6f6b7d;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #dbdade;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+label {
+    margin: 20px auto;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+form#addSiteDataform {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    border: solid 1px #f1f1f1;
+    box-shadow: 0px 0px 7px #ccc;
+}
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.wrap.imform {
+    border: 1px solid #000;
+    padding: 20px;
+}
+.imform label {
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 15px;
+}
+
+small {
+    margin: 5px auto;
+}
+a.sampleFile{
+	text-decoration:none; 
+	text-transform:uppercase;
+}
